@@ -1,0 +1,33 @@
+﻿.editor-container {
+    max-width: 900px;
+}
+
+.editor-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 16px 0;
+}
+
+.editor-header-text {
+    font-style: normal;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    align-self: center;
+}
+
+.add-employee-btn {
+    padding-right: 4px;
+}
+
+.cell-text {
+    font-style: normal;
+    letter-spacing: 0.1px;
+    line-height: 16px;
+    font-weight: 600;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+}

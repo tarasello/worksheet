@@ -1,0 +1,45 @@
+﻿.editor-container {
+    max-width: 900px;
+}
+
+.editor-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 8px 0;
+}
+
+.editor-header-text {
+    font-style: normal;
+    letter-spacing: 0.1px;
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.editor_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 16px 0 0 0;
+}
+
+.field_name {
+    min-width: 150px;
+    font-style: normal;
+    letter-spacing: 0.1px;
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.save-btn-container {
+    margin-top: 16px;
+    justify-content: end;
+}
+
+.btn {
+    min-width: 200px
+}

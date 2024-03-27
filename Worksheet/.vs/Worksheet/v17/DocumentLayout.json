@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\worksheet\\Worksheet\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|d:\\worksheet\\worksheet\\components\\pages\\employees\\employeeeditor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|solutionrelative:components\\pages\\employees\\employeeeditor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|d:\\worksheet\\worksheet\\components\\pages\\employees\\employeeeditor.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|solutionrelative:components\\pages\\employees\\employeeeditor.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|d:\\worksheet\\worksheet\\components\\pages\\employees\\employees.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|solutionrelative:components\\pages\\employees\\employees.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|d:\\worksheet\\worksheet\\components\\pages\\employees\\employees.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|solutionrelative:components\\pages\\employees\\employees.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|d:\\worksheet\\worksheet\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeEditor.razor",
+              "DocumentMoniker": "D:\\worksheet\\Worksheet\\Components\\Pages\\Employees\\EmployeeEditor.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Employees\\EmployeeEditor.razor",
+              "ToolTip": "D:\\worksheet\\Worksheet\\Components\\Pages\\Employees\\EmployeeEditor.razor",
+              "RelativeToolTip": "Components\\Pages\\Employees\\EmployeeEditor.razor",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAFIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T20:09:01.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeEditor.razor.css",
+              "DocumentMoniker": "D:\\worksheet\\Worksheet\\Components\\Pages\\Employees\\EmployeeEditor.razor.css",
+              "RelativeDocumentMoniker": "Components\\Pages\\Employees\\EmployeeEditor.razor.css",
+              "ToolTip": "D:\\worksheet\\Worksheet\\Components\\Pages\\Employees\\EmployeeEditor.razor.css",
+              "RelativeToolTip": "Components\\Pages\\Employees\\EmployeeEditor.razor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-27T20:06:31.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employees.razor.css",
+              "DocumentMoniker": "D:\\worksheet\\Worksheet\\Components\\Pages\\Employees\\Employees.razor.css",
+              "RelativeDocumentMoniker": "Components\\Pages\\Employees\\Employees.razor.css",
+              "ToolTip": "D:\\worksheet\\Worksheet\\Components\\Pages\\Employees\\Employees.razor.css",
+              "RelativeToolTip": "Components\\Pages\\Employees\\Employees.razor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-27T19:38:00.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employees.razor",
+              "DocumentMoniker": "D:\\worksheet\\Worksheet\\Components\\Pages\\Employees\\Employees.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Employees\\Employees.razor",
+              "ToolTip": "D:\\worksheet\\Worksheet\\Components\\Pages\\Employees\\Employees.razor",
+              "RelativeToolTip": "Components\\Pages\\Employees\\Employees.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAACoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T19:31:43.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\worksheet\\Worksheet\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\worksheet\\Worksheet\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T20:23:57.84Z",
+              "EditorCaption": ""
             }
           ]
         }

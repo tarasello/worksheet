@@ -95,6 +95,13 @@ main[b-nnmy0k04x7] {
         right: 0.75rem;
         top: 0.5rem;
     }
+
+.content-container[b-nnmy0k04x7] {
+    border-left: 1px solid rgba(240,240,240,1);
+    padding: 8px 0 0 16px;
+    height: 100vh;
+}
+
 /* _content/Worksheet/Components/Layout/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-9edzrmhmbx] {
     appearance: none;
@@ -200,4 +207,84 @@ main[b-nnmy0k04x7] {
         height: calc(100vh - 3.5rem);
         overflow-y: auto;
     }
+}
+/* _content/Worksheet/Components/Pages/Employees/EmployeeEditor.razor.rz.scp.css */
+.editor-container[b-wg5gxo76uy] {
+    max-width: 900px;
+}
+
+.editor-header[b-wg5gxo76uy] {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 8px 0;
+}
+
+.editor-header-text[b-wg5gxo76uy] {
+    font-style: normal;
+    letter-spacing: 0.1px;
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.editor_row[b-wg5gxo76uy] {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 16px 0 0 0;
+}
+
+.field_name[b-wg5gxo76uy] {
+    min-width: 150px;
+    font-style: normal;
+    letter-spacing: 0.1px;
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.save-btn-container[b-wg5gxo76uy] {
+    margin-top: 16px;
+    justify-content: end;
+}
+
+.btn[b-wg5gxo76uy] {
+    min-width: 200px
+}
+/* _content/Worksheet/Components/Pages/Employees/Employees.razor.rz.scp.css */
+.editor-container[b-yrryeoxyjm] {
+    max-width: 900px;
+}
+
+.editor-header[b-yrryeoxyjm] {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 16px 0;
+}
+
+.editor-header-text[b-yrryeoxyjm] {
+    font-style: normal;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    align-self: center;
+}
+
+.add-employee-btn[b-yrryeoxyjm] {
+    padding-right: 4px;
+}
+
+.cell-text[b-yrryeoxyjm] {
+    font-style: normal;
+    letter-spacing: 0.1px;
+    line-height: 16px;
+    font-weight: 600;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
 }

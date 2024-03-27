@@ -1,0 +1,97 @@
+﻿@page "/employee/edit/{employeeId:int}"
+@page "/employee/add"
+@using Worksheet.Model
+@inject IHttpClientFactory ClientFactory
+@attribute [StreamRendering]
+@rendermode InteractiveServer
+@inject NavigationManager navigationManager
+
+<PageTitle>Сотрудники</PageTitle>
+
+
+
+<div class="editor-container">
+    <div class="editor-header">
+        <div class="editor-header-text">@headerText</div>
+        <MudIconButton Icon="@Icons.Material.Filled.Close" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Medium" @onclick="()=>Close()"></MudIconButton>
+    </div>
+
+    @if (isDataLoading)
+    {
+        <p><em>Загрузка данных сотрудника...</em></p>
+    }
+    else
+    {
+        <div class="editor_row">
+            <MudTextField @bind-Value="employee.LastName" Label="Фамилия" Variant="Variant.Filled"></MudTextField>
+        </div>
+        <div class="editor_row">
+            <MudTextField @bind-Value="employee.FirstName" Label="Имя" Variant="Variant.Filled"></MudTextField>
+        </div>
+        <div class="editor_row save-btn-container">
+            <MudButton StartIcon="@Icons.Material.Filled.Save" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Medium" @onclick="()=>Save()">Сохранить</MudButton>
+        </div>
+    }
+</div>
+
+@code {
+
+    [Parameter]
+    public int? employeeId { get; set; }
+
+    private HttpClient httpClient = null;
+
+    private Employee employee = new Employee();
+
+    private bool isNew
+    {
+        get
+        {
+            return navigationManager.Uri.EndsWith("add");
+        }
+    }
+
+    private string headerText
+    {
+        get
+        {
+            return isNew ? "Добавление нового сотрудника" : "Редактирование данных сотрудника";
+        }
+    }
+
+    private bool isDataLoading = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        httpClient = ClientFactory.CreateClient("LocalApi");
+        if (!isNew)
+        {
+            isDataLoading = true;
+            employee = await httpClient.GetFromJsonAsync<Employee?>("api/employees/edit/" + employeeId);
+            isDataLoading = false;
+        }
+    }
+
+    private async void Save()
+    {
+        if (employee == null)
+            return;
+
+        httpClient = ClientFactory.CreateClient("LocalApi");
+
+        if (isNew)
+        {
+            await httpClient.PostAsJsonAsync<Employee>("api/employees/add", employee);
+            navigationManager.NavigateTo("/employees");
+        }
+        else
+            await httpClient.PutAsJsonAsync<Employee>("api/employees/save", employee);
+    }
+
+    private void Close()
+    {
+        navigationManager.NavigateTo("/employees");
+
+    }
+
+}

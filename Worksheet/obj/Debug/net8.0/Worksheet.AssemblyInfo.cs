@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Worksheet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b0166fd1991b9c4dd3ffdfcd4634b0857d8c40d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Worksheet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Worksheet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

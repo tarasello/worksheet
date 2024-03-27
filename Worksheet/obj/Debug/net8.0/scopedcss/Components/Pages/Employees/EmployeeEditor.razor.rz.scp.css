@@ -1,0 +1,45 @@
+.editor-container[b-wg5gxo76uy] {
+    max-width: 900px;
+}
+
+.editor-header[b-wg5gxo76uy] {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 8px 0;
+}
+
+.editor-header-text[b-wg5gxo76uy] {
+    font-style: normal;
+    letter-spacing: 0.1px;
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.editor_row[b-wg5gxo76uy] {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 16px 0 0 0;
+}
+
+.field_name[b-wg5gxo76uy] {
+    min-width: 150px;
+    font-style: normal;
+    letter-spacing: 0.1px;
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.save-btn-container[b-wg5gxo76uy] {
+    margin-top: 16px;
+    justify-content: end;
+}
+
+.btn[b-wg5gxo76uy] {
+    min-width: 200px
+}

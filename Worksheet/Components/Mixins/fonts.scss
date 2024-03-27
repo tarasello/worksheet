@@ -1,0 +1,9 @@
+﻿@mixin baseFont($font-family, $size, $weight, $line-height, $letter-spacing, $color) {
+    font-family: $font-family;
+    font-style: normal;
+    letter-spacing: $letter-spacing;
+    line-height: $line-height;
+    font-weight: $weight;
+    font-size: $size;
+    color: $color;
+}
