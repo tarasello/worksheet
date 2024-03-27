@@ -45,7 +45,7 @@ namespace Worksheet.Repository
 
         public async void AddEmployee(Employee employee)
         {
-            var query = "INSERT INTO Employees VALUES ('" + employee.FirstName + "', '" + employee.LastName + "')";
+            var query = "INSERT INTO Employees VALUES ('" + employee.FirstName + "', '" + employee.LastName + "', 0)";
             using (var connection = _context.CreateConnection())
             {
                 var result = await connection.QuerySingleOrDefaultAsync<Employee>(query);
@@ -54,7 +54,16 @@ namespace Worksheet.Repository
 
         public async void DeleteEmployee(int employeeId)
         {
-            var query = "DELETE FROM Employees WHERE Id = " + employeeId;
+            var query = "UPDATE Employees SET IsDeleted = 1 WHERE Id = " + employeeId;
+            using (var connection = _context.CreateConnection())
+            {
+                var result = await connection.QueryAsync<Employee>(query);
+            }
+        }
+
+        public async void RestoreEmployee(int employeeId)
+        {
+            var query = "UPDATE Employees SET IsDeleted = 0 WHERE Id = " + employeeId;
             using (var connection = _context.CreateConnection())
             {
                 var result = await connection.QueryAsync<Employee>(query);

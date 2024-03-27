@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 0 8px 0;
+    margin: 0 0 0px 0;
 }
 
 .editor-header-text {
@@ -36,7 +36,7 @@
 }
 
 .save-btn-container {
-    margin-top: 16px;
+    margin-top: 8px;
     justify-content: end;
 }
 

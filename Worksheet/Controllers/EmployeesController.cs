@@ -71,12 +71,26 @@ public class EmployeesController : ControllerBase
     }
 
 
-    [Route("del/{id}")]
+    [Route("delete/{id}")]
     public IActionResult DeleteEmployee(int id)
     {
         try
         {
             _employeeRepo.DeleteEmployee(id);
+            return Ok();
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, ex.Message);
+        }
+    }
+
+    [Route("restore/{id}")]
+    public IActionResult RestoreEmployee(int id)
+    {
+        try
+        {
+            _employeeRepo.RestoreEmployee(id);
             return Ok();
         }
         catch (Exception ex)

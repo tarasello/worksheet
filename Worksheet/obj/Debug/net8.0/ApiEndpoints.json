@@ -28,7 +28,7 @@
   {
     "ContainingType": "EmployeesController",
     "Method": "DeleteEmployee",
-    "RelativePath": "api/employees/del/{id}",
+    "RelativePath": "api/employees/delete/{id}",
     "HttpMethod": "",
     "IsController": true,
     "Order": 0,
@@ -45,6 +45,22 @@
     "ContainingType": "EmployeesController",
     "Method": "GetEmployee",
     "RelativePath": "api/employees/edit/{id}",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeesController",
+    "Method": "RestoreEmployee",
+    "RelativePath": "api/employees/restore/{id}",
     "HttpMethod": "",
     "IsController": true,
     "Order": 0,

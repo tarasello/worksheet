@@ -14,5 +14,7 @@ namespace Worksheet.Contracts
         public void AddEmployee(Employee employee);
 
         public void DeleteEmployee(int employeeId);
+
+        public void RestoreEmployee(int employeeId);
     }
 }

@@ -31,3 +31,9 @@
     font-size: 12px;
     color: rgba(0, 0, 0, 0.6);
 }
+
+.is-deleted-visible__checkbox[b-yrryeoxyjm] {
+    padding: 0 0 8px 0;
+    justify-content: end;
+    display: flex;
+}

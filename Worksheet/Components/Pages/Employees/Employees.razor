@@ -20,6 +20,9 @@
     }
     else
     {
+        <div class="is-deleted-visible__checkbox">
+            <MudCheckBox @bind-Value="isDeletedVisible" Color="Color.Primary" Dense="false">Показать удаленные</MudCheckBox>
+        </div>
         <MudTable Items="@employees" Hover="true">
             <HeaderContent>
                 <MudTh>Фамилия</MudTh>
@@ -30,28 +33,47 @@
             <RowTemplate>
                 <MudTd class="cell-text">@context.LastName</MudTd>
                 <MudTd class="cell-text">@context.FirstName</MudTd>
-                <MudTd style="width: 10px; padding: 4px"><MudIconButton Icon="@Icons.Material.Filled.Edit" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Medium" @onclick="()=>EditEmployee(context.Id)"></MudIconButton></MudTd>
-                <MudTd style="width: 10px; padding: 4px"><MudIconButton Icon="@Icons.Material.Filled.Delete" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Medium" @onclick="()=>DeleteEmployee(context.Id)"></MudIconButton></MudTd>
+
+                @if (context.IsDeleted)
+                {
+                    <MudTd></MudTd>
+                    <MudTd style="width: 10px; padding: 4px"><MudIconButton Icon="@Icons.Material.Filled.Unarchive" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Medium" @onclick="()=>RestoreEmployee(context.Id)"></MudIconButton></MudTd>
+                }
+                else
+                {
+                    <MudTd style="width: 10px; padding: 4px"><MudIconButton Icon="@Icons.Material.Filled.Edit" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Medium" @onclick="()=>EditEmployee(context.Id)"></MudIconButton></MudTd>
+                    <MudTd style="width: 10px; padding: 4px"><MudIconButton Icon="@Icons.Material.Filled.Delete" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Medium" @onclick="()=>DeleteEmployee(context.Id)"></MudIconButton></MudTd>
+                }
             </RowTemplate>
         </MudTable>
+
     }
 </div>
 
 @code {
-    private List<Employee>? employees;
+    private bool isDeletedVisible = false;
+
+    private List<Employee>? _employees;
+    private List<Employee>? employees
+    {
+        get
+        {
+            return isDeletedVisible ? _employees : _employees?.Where((employee) => employee.IsDeleted == false).ToList();
+        }
+    }
 
     private HttpClient httpClient = null;
 
     protected override async Task OnInitializedAsync()
     {
         httpClient = ClientFactory.CreateClient("LocalApi");
-        employees = await httpClient.GetFromJsonAsync<List<Employee>>("api/employees");
+        _employees = await httpClient.GetFromJsonAsync<List<Employee>>("api/employees");
     }
 
     private async Task<EventCallback> DeleteEmployee(int employeeId)
     {
-        await httpClient.DeleteAsync("api/employees/del/" + employeeId);
-        employees = await httpClient.GetFromJsonAsync<List<Employee>>("api/employees");
+        await httpClient.DeleteAsync("api/employees/delete/" + employeeId);
+        _employees = await httpClient.GetFromJsonAsync<List<Employee>>("api/employees");
 
         // Ре-рендер страницы после удаления записи
         await InvokeAsync(StateHasChanged);
@@ -67,5 +89,16 @@
     private void EditEmployee(int employeeId)
     {
         Navigation.NavigateTo("/employee/edit/" + employeeId);
+    }
+
+    private async Task<EventCallback> RestoreEmployee(int employeeId)
+    {
+        await httpClient.DeleteAsync("api/employees/restore/" + employeeId);
+        _employees = await httpClient.GetFromJsonAsync<List<Employee>>("api/employees");
+
+        // Ре-рендер страницы после удаления записи
+        await InvokeAsync(StateHasChanged);
+
+        return new EventCallback();
     }
 }

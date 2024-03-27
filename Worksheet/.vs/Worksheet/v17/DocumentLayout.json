@@ -3,24 +3,48 @@
   "WorkspaceRootPath": "D:\\worksheet\\Worksheet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|d:\\worksheet\\worksheet\\components\\pages\\employees\\employeeeditor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|solutionrelative:components\\pages\\employees\\employeeeditor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|d:\\worksheet\\worksheet\\components\\pages\\employees\\employees.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|solutionrelative:components\\pages\\employees\\employees.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|d:\\worksheet\\worksheet\\components\\pages\\employees\\employeeeditor.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|solutionrelative:components\\pages\\employees\\employeeeditor.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|d:\\worksheet\\worksheet\\components\\pages\\employees\\employees.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|solutionrelative:components\\pages\\employees\\employees.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|d:\\worksheet\\worksheet\\components\\pages\\employees\\employeeeditor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|solutionrelative:components\\pages\\employees\\employeeeditor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|d:\\worksheet\\worksheet\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|solutionrelative:controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|d:\\worksheet\\worksheet\\contracts\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|solutionrelative:contracts\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|d:\\worksheet\\worksheet\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|solutionrelative:repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|d:\\worksheet\\worksheet\\components\\pages\\employees\\employees.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|solutionrelative:components\\pages\\employees\\employees.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|d:\\worksheet\\worksheet\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|solutionrelative:model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|d:\\worksheet\\worksheet\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|d:\\worksheet\\worksheet\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|d:\\worksheet\\worksheet\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{12926BBE-9AEC-4E6D-8F07-565E5D106BF6}|Worksheet.csproj|solutionrelative:components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,13 +62,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "D:\\worksheet\\Worksheet\\Contracts\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Contracts\\IEmployeeRepository.cs",
+              "ToolTip": "D:\\worksheet\\Worksheet\\Contracts\\IEmployeeRepository.cs",
+              "RelativeToolTip": "Contracts\\IEmployeeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T21:20:00.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\worksheet\\Worksheet\\Model\\Employee.cs",
+              "RelativeDocumentMoniker": "Model\\Employee.cs",
+              "ToolTip": "D:\\worksheet\\Worksheet\\Model\\Employee.cs",
+              "RelativeToolTip": "Model\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T21:01:57.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "D:\\worksheet\\Worksheet\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeesController.cs",
+              "ToolTip": "D:\\worksheet\\Worksheet\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Controllers\\EmployeesController.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAwFAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T20:46:06.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\worksheet\\Worksheet\\Repository\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\EmployeeRepository.cs",
+              "ToolTip": "D:\\worksheet\\Worksheet\\Repository\\EmployeeRepository.cs",
+              "RelativeToolTip": "Repository\\EmployeeRepository.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAAD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T20:19:07.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\worksheet\\Worksheet\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\worksheet\\Worksheet\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T20:33:15.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "D:\\worksheet\\Worksheet\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor.css",
+              "ToolTip": "D:\\worksheet\\Worksheet\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor.css",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAGcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-27T20:32:54.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "EmployeeEditor.razor",
               "DocumentMoniker": "D:\\worksheet\\Worksheet\\Components\\Pages\\Employees\\EmployeeEditor.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Employees\\EmployeeEditor.razor",
               "ToolTip": "D:\\worksheet\\Worksheet\\Components\\Pages\\Employees\\EmployeeEditor.razor",
               "RelativeToolTip": "Components\\Pages\\Employees\\EmployeeEditor.razor",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAAFIAAAA3AAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-27T20:09:01.192Z",
               "EditorCaption": ""
@@ -57,46 +159,46 @@
               "RelativeDocumentMoniker": "Components\\Pages\\Employees\\EmployeeEditor.razor.css",
               "ToolTip": "D:\\worksheet\\Worksheet\\Components\\Pages\\Employees\\EmployeeEditor.razor.css",
               "RelativeToolTip": "Components\\Pages\\Employees\\EmployeeEditor.razor.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAARAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-03-27T20:06:31.896Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Employees.razor.css",
               "DocumentMoniker": "D:\\worksheet\\Worksheet\\Components\\Pages\\Employees\\Employees.razor.css",
               "RelativeDocumentMoniker": "Components\\Pages\\Employees\\Employees.razor.css",
               "ToolTip": "D:\\worksheet\\Worksheet\\Components\\Pages\\Employees\\Employees.razor.css",
               "RelativeToolTip": "Components\\Pages\\Employees\\Employees.razor.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-03-27T19:38:00.748Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Employees.razor",
               "DocumentMoniker": "D:\\worksheet\\Worksheet\\Components\\Pages\\Employees\\Employees.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Employees\\Employees.razor",
               "ToolTip": "D:\\worksheet\\Worksheet\\Components\\Pages\\Employees\\Employees.razor",
               "RelativeToolTip": "Components\\Pages\\Employees\\Employees.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAACoAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAFEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-27T19:31:43.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "D:\\worksheet\\Worksheet\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
               "ToolTip": "D:\\worksheet\\Worksheet\\Components\\Layout\\MainLayout.razor",
               "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-26T20:23:57.84Z",
               "EditorCaption": ""
